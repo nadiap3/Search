@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="links">
+        <!-- Link to Main Google Search page -->
+
+        <a href="index.html">Google Search</a>
+
+    </div>
+
+   
+    <div class="main">
+        <!-- Search form for image search -->
+        
+        <h1>Google Images</h1>
+       <!-- amend below for images -->
+       <!-- https://www.google.com/search?q=test&tbm=isch -->
+        <form action="https://www.google.com/search?&tbm=isch">
+            <!--q = : search query-->
+            <input class="tbox" type="text" name="q">
+            <!--tbm = isch : query needed for image search-->
+            <input type="hidden" name="tbm" value="isch">
+            <br>
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
+</body>
+</html>

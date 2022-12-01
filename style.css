@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    text-align: right;
+}
+
+.main {
+    text-align: center;
+    padding: 5px;
+    margin: 7px;    
+}
+
+.tbox {
+    border-radius: 30px;
+    border: solid darkgray 0.5px;
+    padding: 5px;
+    margin: 7px;
+    
+}
+
+.advanced {
+    text-align: left;
+}
+
+#advTitle{
+    color: red;
+}
+
+#advSubmit {
+    background-color: rgb(48, 101, 193);
+    color: white;
+    border: solid darkblue 0.5px;
+    padding: 5px;
+    margin: 7px;
+}
